@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "aed48e48-2127-4647-a531-7c57ef8cfcea",
+		"name": "PostmanEco",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Req",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}",
+					"host": [
+						"{{url}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Req Headers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/headers",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"headers"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
